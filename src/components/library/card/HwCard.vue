@@ -77,6 +77,8 @@ const props = defineProps({
   line-height: 1.5em;
   position: relative;
   display: flex;
+  // make card container more like card box
+  // width: clamp(45ch, 50%, 75ch);
   flex-direction: column;
   -webkit-tap-highlight-color: transparent;
   background-color: palette-color-level(white, 100);
